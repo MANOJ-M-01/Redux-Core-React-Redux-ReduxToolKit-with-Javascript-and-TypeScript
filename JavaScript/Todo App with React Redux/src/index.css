@@ -1,0 +1,145 @@
+ * {
+     box-sizing: border-box;
+     font-family: 'PT Serif', serif;
+     font-size: 17px;
+     line-height: 1.3;
+     font-weight: 500;
+ }
+
+ body {
+     margin: 0;
+     min-height: 100vh;
+     background: #e3d8d8;
+ }
+
+ h1 {
+     margin: auto;
+     width: max-content;
+ }
+
+ .container,
+ .todo-add {
+     max-width: 318px;
+     margin: auto;
+ }
+
+ .todo-container {
+     background: #fff;
+     padding: 10px;
+     margin: 10px auto;
+     border-radius: 3px;
+     color: #201919;
+     font-weight: 600;
+     position: relative;
+ }
+
+ .todo-count {
+     position: absolute;
+     width: auto;
+     height: auto;
+     border-radius: 50%;
+     display: flex;
+     justify-content: center;
+     min-width: 35px;
+     min-height: 35px;
+     align-items: center;
+     color: #fffafa;
+     background: #181616;
+     top: -13px;
+     left: -25px;
+     font-weight: 700;
+ }
+
+ .counter-label {
+     font-size: 20px;
+     font-weight: 800;
+     text-align: center;
+     display: block;
+     margin: 10px;
+ }
+
+ .counter-btns {
+     display: flex;
+     justify-content: center;
+ }
+
+ .counter-container {
+     margin-bottom: 50px;
+ }
+
+ .counter-btns button {
+     display: block;
+     margin-left: 10px;
+     border-radius: 4px;
+     background-color: #786c63;
+     border: none;
+     padding: 7px;
+     color: #f9f1f1;
+     font-weight: 700;
+     transition: all 0.5s;
+     min-width: 48px;
+ }
+
+ .todo-add {
+     display: flex;
+ }
+
+ .todo-add input[type='text'] {
+     width: 100%;
+     display: block;
+ }
+
+ h1 {
+     font-size: 24px;
+     font-weight: 600;
+     color: #282727;
+ }
+
+ .todo-add button {
+     display: block;
+     margin-left: 10px;
+     border-radius: 4px;
+     background-color: #786c63;
+     border: none;
+     padding: 10px;
+     color: #f9f1f1;
+     font-weight: 700;
+     transition: all 0.5s;
+ }
+
+ .todo-item {
+     display: flex;
+     align-items: center;
+     margin-bottom: 10px;
+     gap: 10px;
+ }
+
+ .todo-item input[type='checkbox'] {
+     width: 20px;
+     display: block;
+ }
+
+ .todo-item label {
+     display: block;
+     width: 100%;
+     word-break: break-word;
+ }
+
+ .todo-item button {
+     border: navajowhite;
+     background: #bdacac7a;
+     border-radius: 50%;
+     width: 32px;
+     height: 25px;
+     display: block;
+     font-weight: 800;
+     font-size: 12px;
+     color: #991010;
+
+ }
+
+
+ .todo-item .completed {
+     text-decoration: line-through;
+     color: #888;
+ }
